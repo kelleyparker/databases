@@ -17,7 +17,7 @@ CREATE TABLE teams (
 );
 
 INSERT INTO teams 
-    (team, city, state, year_established, primary_color, secondary_color, super_bowl_championships, hex_color_1, hex_color_2) 
+    (team, city, state, year_established, primary_color, secondary_color, super_bowl_championships, hex_color_1, hex_color_2, hex_color_3)
 VALUES 
     ('Arizona Cardinals', 'Phoenix', 'Arizona', 'Cardinal Red', 'Black', 0, '97233f', '000000', 'NULL')
     ('Dallas Cowboys', 'Dallas', 'Texas', 1960, 'Navy Blue', 'Silver', 5, '002244', '869397', '00338d'),
