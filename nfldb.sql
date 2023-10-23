@@ -73,10 +73,12 @@ CREATE TABLE rosters2019 (
     season_year INT NOT NULL
 );
 
+
+
 INSERT INTO rosters2019 
     (first_name, last_name, age, college, position, nfl_experience, annual_salary, team, season_year)
 VALUES
-    ----2019 Arizona Cardinals - Source: https://www.pro-football-reference.com/teams/crd/2019_roster.htm
+    -- 2019 Arizona Cardinals
     ('Zach', 'Allen', 22, 'Boston Col.', 'DE', 1, 495000.00, 'Arizona Cardinals', 2019),
     ('Dan', 'Arnold', 24, 'Wisconsin–Platteville', 'WR', 1, 240000.00, 'Arizona Cardinals', 2019),
     ('Budda', 'Baker', 23, 'Washington', 'FS', 2, 1085910.00, 'Arizona Cardinals', 2019),
@@ -145,8 +147,8 @@ VALUES
     ('Trevor', 'Williams', 26, 'Penn St.', 'DB', 3, 100000.00, 'Arizona Cardinals', 2019),
     ('Ramik', 'Wilson', 27, 'Georgia', 'LB', 4, 1125000.00, 'Arizona Cardinals', 2019),
     ('Ryan', 'Winslow', 25, 'Pittsburgh', 'P', 0, 0.00, 'Arizona Cardinals', 2019),
-    ('Zach', 'Zenner', 28, 'South Dakota St.', 'RB', 4, 0.00, 'Arizona Cardinals', 2019);
-    ----2019 New York Giants - Source: https://www.pro-football-reference.com/teams/nyg/2019_roster.htm
+    ('Zach', 'Zenner', 28, 'South Dakota St.', 'RB', 4, 0.00, 'Arizona Cardinals', 2019),
+    -- 2019 New York Giants
     ('Javorius', 'Allen', 28, 'USC', 'RB', 10, 0.00, 'New York Giants', 2019),
     ('Deandre', 'Baker', 22, 'Georgia', 'LCB', 16, 495000.00, 'New York Giants', 2019),
     ('Corey', 'Ballentine', 23, 'Washburn', 'DB', 13, 495000.00, 'New York Giants', 2019),
