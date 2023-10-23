@@ -1,3 +1,7 @@
+CREATE DATABASE nfldb;
+
+USE nfldb;
+
 CREATE TABLE teams (
     id INT AUTO_INCREMENT PRIMARY KEY,
     team VARCHAR(255) NOT NULL,
