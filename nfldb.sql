@@ -1,11 +1,8 @@
 CREATE DATABASE IF NOT EXISTS nfldb;
-
 USE nfldb;
 
 DROP TABLE IF EXISTS teams;
 DROP TABLE IF EXISTS rosters2019;
-
-
 
 CREATE TABLE teams (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -22,6 +19,20 @@ CREATE TABLE teams (
     conference VARCHAR(255) NOT NULL,
     division VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE rosters2019 (
+    player_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    college VARCHAR(100) NOT NULL,
+    position VARCHAR(50) NOT NULL,
+    nfl_experience INT NOT NULL,
+    annual_salary DECIMAL(10, 2) NOT NULL,
+    team VARCHAR(255) NOT NULL,
+    season_year INT NOT NULL
+);
+
 
 INSERT INTO teams 
     (team, city, state, year_established, primary_color, secondary_color, super_bowl_championships, hex_color_1, hex_color_2, hex_color_3, conference, division)
@@ -59,22 +70,6 @@ VALUES
     ('Washington Football Team', 'Landover', 'Maryland', 1932, 'Burgundy', 'Gold', 3, '773141', 'ffb612', NULL, 'NFC', 'NFC East');
 
     
-
-CREATE TABLE rosters2019 (
-    player_id INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    age INT NOT NULL,
-    college VARCHAR(100) NOT NULL,
-    position VARCHAR(50) NOT NULL,
-    nfl_experience INT NOT NULL,
-    annual_salary DECIMAL(10, 2) NOT NULL,
-    team VARCHAR(255) NOT NULL,
-    season_year INT NOT NULL
-);
-
-
-
 INSERT INTO rosters2019 
     (first_name, last_name, age, college, position, nfl_experience, annual_salary, team, season_year)
 VALUES
@@ -348,3 +343,11 @@ VALUES
     ('Deshaun', 'Watson', 24, 'Clemson', 'QB', 2, 1724480.00, 'Houston Texans', 2019),
     ('J.J.', 'Watt', 30, 'Central Michigan,Wisconsin', 'LDE', 4, 13000000.00, 'Houston Texans', 2019),
     ('Jon', 'Weeks', 33, 'Baylor', 'LS', 1, 930000.00, 'Houston Texans', 2019);
+
+
+-- Establishing Foreign Key Relationship
+ALTER TABLE teams
+ADD INDEX idx_team (team);
+
+ALTER TABLE rosters2019
+ADD FOREIGN KEY (team) REFERENCES teams(team);
