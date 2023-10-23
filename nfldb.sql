@@ -8,7 +8,8 @@ CREATE TABLE teams (
     secondary_color VARCHAR(255) NOT NULL,
     super_bowl_championships INT NOT NULL,
     hex_color_1 VARCHAR(7) NOT NULL,
-    hex_color_2 VARCHAR(7) NOT NULL
+    hex_color_2 VARCHAR(7) NOT NULL,
+    hex_color_3 VARCHAR(7) NOT NULL
 );
 
 INSERT INTO teams 
