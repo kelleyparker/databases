@@ -43,46 +43,18 @@ CREATE TABLE congress_officials (
 
 -- Presidents Values below
 INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  -- George Washington
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('George Washington', '1789-04-30', '1797-03-04', 1732, 'None');
-  
-  -- John Adams
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('John Adams', '1797-03-04', '1801-03-04', 1735, 'Federalist');
-  
-  -- Thomas Jefferson
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('Thomas Jefferson', '1801-03-04', '1809-03-04', 1743, 'Democratic-Republican');
-  
-  -- James Madison
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('James Madison', '1809-03-04', '1817-03-04', 1751, 'Democratic-Republican');
-  
-  -- James Monroe
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('James Monroe', '1817-03-04', '1825-03-04', 1758, 'Democratic-Republican');
-  
-  -- John Quincy Adams
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('John Quincy Adams', '1825-03-04', '1829-03-04', 1767, 'Democratic-Republican');
-  
-  -- Andrew Jackson
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('Andrew Jackson', '1829-03-04', '1837-03-04', 1767, 'Democratic');
-  
-  -- Martin Van Buren
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('Martin Van Buren', '1837-03-04', '1841-03-04', 1782, 'Democratic');
-  
-  -- William Henry Harrison
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('William Henry Harrison', '1841-03-04', '1841-04-04', 1773, 'Whig');
-  
-  -- John Tyler
-  INSERT INTO presidents (full_name, start_date, end_date, birth_year, political_party)
-  VALUES ('John Tyler', '1841-04-04', '1845-03-04', 1790, 'Whig')
-);
+VALUES 
+  ('George Washington', '1789-04-30', '1797-03-04', 1732, 'None'),
+  ('John Adams', '1797-03-04', '1801-03-04', 1735, 'Federalist'),
+  ('Thomas Jefferson', '1801-03-04', '1809-03-04', 1743, 'Democratic-Republican'),
+  ('James Madison', '1809-03-04', '1817-03-04', 1751, 'Democratic-Republican'),
+  ('James Monroe', '1817-03-04', '1825-03-04', 1758, 'Democratic-Republican'),
+  ('John Quincy Adams', '1825-03-04', '1829-03-04', 1767, 'Democratic-Republican'),
+  ('Andrew Jackson', '1829-03-04', '1837-03-04', 1767, 'Democratic'),
+  ('Martin Van Buren', '1837-03-04', '1841-03-04', 1782, 'Democratic'),
+  ('William Henry Harrison', '1841-03-04', '1841-04-04', 1773, 'Whig'),
+  ('John Tyler', '1841-04-04', '1845-03-04', 1790, 'Whig');
+
 
 
 -- DATABASES:
