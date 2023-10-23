@@ -49,4 +49,8 @@ VALUES
     ('New Orleans Saints', 'New Orleans', 'Louisiana', 1967, 'Black', 'Gold', 1, '9f8958', '000000', NULL, 'NFC', 'NFC South'),
     ('New York Jets', 'East Rutherford', 'New Jersey', 1960, 'Hunter Green', 'White', 1, '125740', 'ffffff', NULL, 'AFC', 'AFC East'),
     ('Pittsburgh Steelers', 'Pittsburgh', 'Pennsylvania', 1933, 'Black', 'Gold', 6, '000000', 'ffb612', NULL, 'AFC', 'AFC North'),
-    ('San Francisco 49ers', 'Santa Clara', 'California', 1946, 'Cardinal Red', 'Gold', 5, 'aa0000', 'ffb612', NULL, 'NFC', 'N
+    ('San Francisco 49ers', 'Santa Clara', 'California', 1946, 'Cardinal Red', 'Gold', 5, 'aa0000', 'ffb612', NULL, 'NFC', 'NFC West')
+    ('Seattle Seahawks', 'Seattle', 'Washington', 1976, 'College Navy', 'Action Green', 1, '002244', '7ac142', NULL, 'NFC', 'NFC West'),
+    ('Tampa Bay Buccaneers', 'Tampa', 'Florida', 1976, 'Buccaneer Red', 'Pewter', 2, 'd50a0a', '34302b', NULL, 'NFC', 'NFC South'),
+    ('Tennessee Titans', 'Nashville', 'Tennessee', 1960, 'Navy', 'Titan Blue', 0, '002244', '648fcc', NULL, 'AFC', 'AFC South'),
+    ('Washington Football Team', 'Landover', 'Maryland', 1932, 'Burgundy', 'Gold', 3, '773141', 'ffb612', NULL, 'NFC', 'NFC East');
