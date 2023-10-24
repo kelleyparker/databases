@@ -1,4 +1,4 @@
-CREATE DATABASE usgofficials;
+CREATE DATABASE usgofficials IF NOT EXIST;
 
 USE usgofficials;
 
