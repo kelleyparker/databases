@@ -8,7 +8,7 @@ CREATE TABLE presidents {
   start_date DATE,
   end_date DATE,
   birth_year int,
-  political_party, VARCHAR(255),
+  political_party, VARCHAR(255)
 };
 
 CREATE TABLE vice_presidents {
@@ -18,7 +18,7 @@ CREATE TABLE vice_presidents {
   start_date DATE,
   end_date DATE,
   birth_year int,
-  political_party, VARCHAR(255),
+  political_party VARCHAR(255),
   FOREIGN KEY (president_id) REFERENCES presidents(id)
 };
 
