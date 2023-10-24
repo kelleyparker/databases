@@ -11,7 +11,7 @@ CREATE TABLE presidents {
   political_party, VARCHAR(255),
 };
 
-CREATE TABLE presidents {
+CREATE TABLE vice_presidents {
   id int PRIMARY KEY AUTO_INCREMENT,
   president_id INT,
   full_name VARCHAR(255),
