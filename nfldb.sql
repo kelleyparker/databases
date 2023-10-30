@@ -72,7 +72,7 @@ VALUES
     
 INSERT INTO rosters2019 
     (first_name, last_name, age, college, position, nfl_experience, annual_salary, team, season_year)
-VALUES
+VALUES`
     -- 2019 Arizona Cardinals -------------------------------------------------------------------------
     ('Zach', 'Allen', 22, 'Boston Col.', 'DE', 1, 495000.00, 'Arizona Cardinals', 2019),
     ('Dan', 'Arnold', 24, 'Wisconsin–Platteville', 'WR', 1, 240000.00, 'Arizona Cardinals', 2019),
